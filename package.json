@@ -1,0 +1,48 @@
+{
+  "name": "stable-price-marketplace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/redstone-finance/stable-price-marketplace",
+  "author": "hatskier <suvorovalex1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "app:start": "react-scripts start",
+    "app:build": "react-scripts build",
+    "app:eject": "react-scripts eject",
+    "test": "hardhat test",
+    "run-local-node": "hardhat node",
+    "deploy-contracts:local": "hardhat run --network local scripts/deploy-contracts.js",
+    "deploy-contracts:kovan": "hardhat run --network kovan scripts/deploy-contracts.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.1"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "redstone-evm-connector": "2.1.9",
+    "sass": "^1.49.9",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

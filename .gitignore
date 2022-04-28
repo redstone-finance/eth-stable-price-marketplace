@@ -102,3 +102,20 @@ dist
 
 # TernJS port file
 .tern-port
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+# Hardhat files
+cache
+artifacts
+
+# Private keys (to deploy on testnet)
+.private-keys.json
+
+.DS_Store
+
+.vercel
