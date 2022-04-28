@@ -31,7 +31,7 @@ module.exports = {
       chainId: 31337,
     },
     kovan: {
-      url: "https://kovan.infura.io",
+      url: "https://kovan.infura.io/v3/35cb2a91413e49c49a40392a6635c5a6",
       // gasPrice: 225000000000,
       chainId: 42,
       accounts: tryGetPrivateKeys()
